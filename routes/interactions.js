@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const Interaction = require("../models/Interaction");
 const Post = require("../models/Post");
-const verify = require("../verifytoken");
+const verify = require("../verifyToken.js");
 
 // Action 4: Registered users perform basic operations, including “like”, “dislike”, or “comment” a message posted for a topic.
 router.post("/", verify, async (req, res) => {
