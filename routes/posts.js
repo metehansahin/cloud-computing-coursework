@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const Post = require("../models/Post");
 const Interaction = require("../models/Interaction");
-const verify = require("../verifyToken");
+const verify = require("../verifyToken.js");
 
 // Action 2: Authorised users post a message for a particular topic in the Piazza API.
 router.post("/", verify, async (req, res) => {
