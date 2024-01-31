@@ -7,42 +7,16 @@ Welcome to Piazza, a cloud-based Software as a Service (SaaS) designed to replic
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Prerequisites](#prerequisites)
-3. [Installation and Deployment](#installation-and-deployment)
-4. [Functionality](#functionality)
-5. [Authentication and Verification](#authentication-and-verification)
-6. [Development of Piazza RESTful APIs](#development-of-piazza-restful-apis)
-7. [Coursework Phases](#coursework-phases)
+2. [Functionality](#functionality)
+3. [Authentication and Verification](#authentication-and-verification)
+4. [Development of Piazza RESTful APIs](#development-of-piazza-restful-apis)
+5. [Coursework Phases](#coursework-phases)
    - [Phase A: Install and Deploy](#phase-a-install-and-deploy)
    - [Phase B: Authentication](#phase-b-authentication)
    - [Phase C: Development of Piazza APIs](#phase-c-development-of-piazza-apis)
-8. [Support](#support)
-9. [Contributing](#contributing)
 
 ## Introduction
 Piazza is a RESTful SaaS platform where users can post messages, interact with other posts, and browse content based on specific topics. This project aims to demonstrate proficiency in software development methodologies and frameworks by implementing Piazza using virtualized environments such as VMs, containers, and Kubernetes.
-
-## Prerequisites
-Before proceeding, ensure you have the following prerequisites installed:
-- Node.js
-- MongoDB
-- Docker (optional, for containerization)
-- Kubernetes (optional, for Kubernetes deployment)
-
-## Installation and Deployment
-To install and deploy Piazza, follow these steps:
-1. Clone this repository to your local machine.
-2. Install Node.js dependencies by running `npm install express nodemon mongoose@6.10.0 dotenv body-parser joi bcryptjs jsonwebtoken`.
-3. Set up MongoDB and ensure it's running.
-4. Start the application by running `npm start`.
-5. Access the application at `http://localhost:3000`.
-
-For containerized deployment:
-1. Build the Docker image using `docker build -t piazza .`.
-2. Run the Docker container with `docker run -d -p 3000:3000 piazza`.
-
-For Kubernetes deployment:
-1. Apply the Kubernetes manifests using `kubectl apply -f kubernetes/`.
 
 ## Functionality
 Piazza supports the following actions:
