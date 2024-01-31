@@ -3,7 +3,7 @@
 # Piazza: Cloud Software as a Service
 
 ## Overview
-Welcome to Piazza, a cloud-based Software as a Service (SaaS) designed to replicate the functionality of a Twitter-like system. In this README, you'll find comprehensive instructions on how to set up, deploy, and utilize Piazza for your social networking needs.
+Welcome to Piazza, a cloud-based Software as a Service (SaaS) designed to replicate the functionality of a Twitter-like system.
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -55,3 +55,4 @@ Piazza's APIs allow basic functionalities and include the following data for pos
 - Implement basic functionalities described in the coursework.
 - Develop database models and application logic.
 - List RESTful API endpoints in the report.
+
