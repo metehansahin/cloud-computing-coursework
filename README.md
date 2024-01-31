@@ -32,7 +32,7 @@ Before proceeding, ensure you have the following prerequisites installed:
 ## Installation and Deployment
 To install and deploy Piazza, follow these steps:
 1. Clone this repository to your local machine.
-2. Install Node.js dependencies by running `npm install`.
+2. Install Node.js dependencies by running `npm install express nodemon mongoose@6.10.0 dotenv body-parser joi bcryptjs jsonwebtoken`.
 3. Set up MongoDB and ensure it's running.
 4. Start the application by running `npm start`.
 5. Access the application at `http://localhost:3000`.
