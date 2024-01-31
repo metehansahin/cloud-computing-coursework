@@ -14,6 +14,8 @@ Welcome to Piazza, a cloud-based Software as a Service (SaaS) designed to replic
    - [Phase A: Install and Deploy](#phase-a-install-and-deploy)
    - [Phase B: Authentication](#phase-b-authentication)
    - [Phase C: Development of Piazza APIs](#phase-c-development-of-piazza-apis)
+   - [Phase D: Deploy your Piazza project into a VM using Docker](#phase-d-deploy-your-piazza-project-into-a-vm-using-docker)
+   - [Phase E: Phase E: Deploy your application in Kubernetes](#phase-e-deploy-your-application-in-kubernetes)
 
 ## Introduction
 Piazza is a RESTful SaaS platform where users can post messages, interact with other posts, and browse content based on specific topics. This project aims to demonstrate proficiency in software development methodologies and frameworks by implementing Piazza using virtualized environments such as VMs, containers, and Kubernetes.
@@ -56,13 +58,13 @@ Piazza's APIs allow basic functionalities and include the following data for pos
 - Develop database models and application logic.
 - List RESTful API endpoints in the report.
 
-### Phase D: Deploy your Piazza project into a VM using Docker [10 marks]
+### Phase D: Deploy your Piazza project into a VM using Docker
 - Upload your code to a GitHub repo.
 - Deploy it in a Google Cloud VM.
 - Provide a list of commands in the report.
 - Include screenshots to demonstrate your deployment actions.
 
-### Phase E: Deploy your application in Kubernetes [15 marks]
+### Phase E: Deploy your application in Kubernetes
 - Create a Kubernetes cluster on the Google Cloud platform.
 - Deploy a load balancer following specifications.
 - Deploy the Piazza application with five replicas.
