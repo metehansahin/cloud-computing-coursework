@@ -56,3 +56,14 @@ Piazza's APIs allow basic functionalities and include the following data for pos
 - Develop database models and application logic.
 - List RESTful API endpoints in the report.
 
+### Phase D: Deploy your Piazza project into a VM using Docker [10 marks]
+- Upload your code to a GitHub repo.
+- Deploy it in a Google Cloud VM.
+- Provide a list of commands in the report.
+- Include screenshots to demonstrate your deployment actions.
+
+### Phase E: Deploy your application in Kubernetes [15 marks]
+- Create a Kubernetes cluster on the Google Cloud platform.
+- Deploy a load balancer following specifications.
+- Deploy the Piazza application with five replicas.
+- Use DockerHub to move your code or follow a manual approach.
